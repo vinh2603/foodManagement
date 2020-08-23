@@ -1,6 +1,5 @@
 import json
 import numpy as np
-import sys
 
 def Init_Json(l,fileName):
      with open(fileName,'w') as f:
