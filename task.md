@@ -1,4 +1,5 @@
-1 quán bán đồ ăn nhanh bán A món ăn. Mỗi món ăn có công thức làm riêng biệt sử dụng một số lượng các nguyên liệu nấu ăn khác nhau.
+#1 quán bán đồ ăn nhanh bán A món ăn. Mỗi món ăn có công thức làm riêng biệt sử dụng một số lượng các nguyên liệu nấu ăn khác nhau.
+
 Viết chương trình quản lý bán đồ ăn nhanh như sau:
 -	Người bán hàng có một file json “foodStorage” lưu trữ các nguyên liệu đồ ăn trong kho nhà hàng và số lượng tương ứng. Danh sách các nguyên liệu là không thay đổi và được cho trước.
 -	Người bán hàng có thể nhập thêm số lượng cho các nguyên liệu (trong danh sách cố định trên) bất kì lúc nào và lưu vào trong file “foodStorage”.
@@ -9,7 +10,8 @@ Viết chương trình quản lý bán đồ ăn nhanh như sau:
 -	Nếu không đủ nguyên liệu để tiến hành làm món ăn, hệ thống in ra số lượng nguyên liệu còn thiếu. 
 -	Mỗi món ăn đem lại lợi nhuận khác nhau. Giả sử khi khách hàng yêu cầu món ăn mà kho nguyên liệu không đáp ứng được nhu cầu, in ra danh sách các món ăn có thể làm được với tổng lợi nhuận trên đơn hàng cao nhất.
 -	Chương trình chính sẽ gồm hàm main, các hàm khác sẽ viết theo dạng module để import vào chương trình chính.
-Ví dụ: 
+
+#Ví dụ: 
 Kho của nhà hàng có: 5 gio, 3 pate, 3 rau, 4 my, 4 banhmy (lưu trong file foodStorage, được cho trước)
 Nhà hàng bán 2 món ăn là banhmy và mytom. (các công thức nhập từ bàn phím).
 Công thức làm banhmy bao gồm: 1 gio, 1 pate, 1 banhmy, 2 rau.
