@@ -12,10 +12,6 @@ def Get_Json(fileName):
         return l
 
 
-def MakeBestProfit():
-    pass
-
-
 def CheckIngredient(IngredientName,number):
     with open("FoodStorage.json",'r') as f:
         l=json.load(f)
@@ -145,8 +141,8 @@ def GetTotalProfit(order):
     return total
 
 
+def MakeBestProfit():
+    pass
 
-Ingredients={"banh my":20,"com":20,"trung":20,"gio":20,"cha":20,"pate":20,"bo":20,"ga":20,"rau":20,"pho":20}
 
-print(GetTotalProfit(Order()))
 
