@@ -1,5 +1,6 @@
 #1 quán bán đồ ăn nhanh bán A món ăn. Mỗi món ăn có công thức làm riêng biệt sử dụng một số lượng các nguyên liệu nấu ăn khác nhau.
 
+
 Viết chương trình quản lý bán đồ ăn nhanh như sau:
 -	Người bán hàng có một file json “foodStorage” lưu trữ các nguyên liệu đồ ăn trong kho nhà hàng và số lượng tương ứng. Danh sách các nguyên liệu là không thay đổi và được cho trước.
 -	Người bán hàng có thể nhập thêm số lượng cho các nguyên liệu (trong danh sách cố định trên) bất kì lúc nào và lưu vào trong file “foodStorage”.
